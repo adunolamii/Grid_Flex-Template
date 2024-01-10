@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.container{
+    width: 370px;
+    height: 1500px;
+    border: 1px solid red;
+    background-color:whitesmoke ;
+}
+.div1{
+    width: 300px;
+    height: 310px;
+    border: 1px solid green;
+    margin: auto;
+    border-radius: 2px;
+    background-color: blueviolet;
+    margin-top: 20px;
+
+}
+.pattern{
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+.pic1{
+width: 140px;
+height: 50px;
+border: 1px solid blue;
+margin: auto;
+display: flex;
+margin-top: 10px;
+}
+.dan{
+width: 40px;
+height: 40px;
+border-radius: 40px;
+
+}
+.cliff{
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.verified{
+    color: white;
+    font-size: 10px;
+}
+h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 15px;
+}
+p{
+    color: white;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 12px;
+}
+.div2{
+    width: 300px;
+    height: 180px;
+    border: 1px solid green;
+    margin: auto;
+    border-radius: 2px;
+    background-color: rgb(96, 96, 96);
+    margin-top: 20px;
+}
+.div3{
+    width: 300px;
+    height: 170px;
+    border: 1px solid green;
+    margin: auto;
+    border-radius: 2px;
+    background-color: rgb(96, 96, 96);
+    margin-top: 20px;
+}
+.div4{
+    width: 300px;
+    height: 270px;
+    border: 1px solid green;
+    margin: auto;
+    border-radius: 2px;
+    background-color: rgb(96, 96, 96);
+    margin-top: 20px; 
+}
+.div5{
+    width: 300px;
+    height: 270px;
+    border: 1px solid green;
+    margin: auto;
+    border-radius: 2px;
+    background-color: rgb(96, 96, 96);
+    margin-top: 20px;
+}
+
+
+
+@media(min-width:400px){
+    .container{
+       width: 1330px;
+       height: 900px;
+        border: 1px solid red;
+        background-color:whitesmoke ;
+    } 
+    .div1{
+        width: 430px;
+        height: 250px;
+        border: 1px solid green;
+        margin: auto;
+        border-radius: 7px;
+        background-color: blueviolet;
+        margin-top: 90px;
+        margin-left: 180px;
+        }
+        .div2{
+            width: 200px;
+            height: 250px;
+            border: 1px solid green;
+            margin: auto;
+            border-radius: 7px;
+            background-color: rgb(96, 96, 96);
+            margin-top: -250px;
+            margin-left: 630px;
+        }
+        .div3{
+            width: 200px;
+            height: 190px;
+            border: 1px solid green;
+            border-radius: 7px;
+            background-color: rgb(96, 96, 96);
+            /* margin-top: -250px; */
+            margin-left: 180px;
+        }
+        .div4{
+            width: 410px;
+            height: 210px;
+            border: 1px solid green;
+            /* margin: auto; */
+            border-radius: 7px;
+            background-color: rgb(96, 96, 96);
+            margin-top: -200px;
+            margin-right: 500px;
+        }
+}
