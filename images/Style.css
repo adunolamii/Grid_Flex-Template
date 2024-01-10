@@ -83,16 +83,16 @@ p{
 .div4{
     width: 300px;
     height: 270px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: auto;
     border-radius: 2px;
-    background-color: rgb(96, 96, 96);
+    background-color:rgb(28, 25, 25);
     margin-top: 20px; 
 }
 .div5{
     width: 300px;
     height: 340px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: auto;
     border-radius: 2px;
     background-color: rgb(96, 96, 96);
@@ -141,9 +141,8 @@ p{
             width: 410px;
             height: 210px;
             border: 1px solid green;
-            /* margin: auto; */
             border-radius: 7px;
-            background-color: rgb(96, 96, 96);
+            background-color:rgb(28, 25, 25);
             margin-top: -200px;
             margin-right: 500px;
         }
@@ -151,10 +150,9 @@ p{
             width: 220px;
             height: 465px;
             border: 1px solid green;
-            /* margin: auto; */
             border-radius: 7px;
             background-color: rgb(96, 96, 96);
             margin-top: -470px;
             margin-right: 260px;
-        
+        }  
 }
